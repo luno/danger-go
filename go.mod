@@ -9,3 +9,5 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/luno/danger-go v0.0.0-20230121134440-81ada33efa08 => github.com/moolmanruan/danger-go v0.1.0
