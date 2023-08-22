@@ -3,7 +3,6 @@ package danger_test
 import (
 	"testing"
 
-	"github.com/moolmanruan/danger-go"
 	"github.com/stretchr/testify/require"
 )
 

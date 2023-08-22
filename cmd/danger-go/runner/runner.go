@@ -14,9 +14,6 @@ import (
 	"path/filepath"
 	"plugin"
 	"strings"
-
-	"github.com/moolmanruan/danger-go"
-	"github.com/moolmanruan/danger-go/danger-js"
 )
 
 const dangerURLPrefix = "danger://dsl/"

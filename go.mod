@@ -1,4 +1,4 @@
-module github.com/moolmanruan/danger-go
+module github.com/luno/danger-go
 
 go 1.19
 
