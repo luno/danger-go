@@ -1,4 +1,3 @@
-
 # Danger in Go
 
 This is a Go version of the popular [Danger](https://danger.systems/) tool.
@@ -19,11 +18,7 @@ Requires [Danger JS](https://danger.systems/js) to run properly.
 ```go
 package main
 
-import (
-	"fmt"
-
-	"github.com/luno/danger-go"
-)
+import "github.com/luno/danger-go"
 
 func Run(d *danger.T, pr danger.DSL) {
 	d.Message("danger-go is running!", "", 0)

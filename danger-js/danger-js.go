@@ -8,8 +8,10 @@ import (
 	"strings"
 )
 
-const dangerJsBinary = "danger"
-const dangerGoBinary = "danger-go"
+const (
+	dangerJsBinary = "danger"
+	dangerGoBinary = "danger-go"
+)
 
 func findBinary(name string) (string, error) {
 	cmd := exec.Command("which", name)
@@ -36,7 +38,7 @@ func GetPR(url string, dangerBin string) (DSL, error) {
 	}
 
 	var pr DSL
-	if err = json.Unmarshal([]byte(prJSON), &pr); err != nil {
+	if err = json.Unmarshal(prJSON, &pr); err != nil {
 		return DSL{}, err
 	}
 	return pr, nil
@@ -52,7 +54,7 @@ func Process(command string, args []string) error {
 		return err
 	}
 	// The `danger` (javascript) command will call the process specified,
-	// ie. `danger-go`, with the first argument of `runner` followed by the
+	// i.e. `danger-go`, with the first argument of `runner` followed by the
 	// arguments it received.
 	cmdArgs := append([]string{command, "--process", dangerGoBin, "--passURLForDSL"}, args...)
 	cmd := exec.Command(dangerBin, cmdArgs...)
