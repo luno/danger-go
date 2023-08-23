@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/moolmanruan/danger-go"
 )
 
 // Run is invoked by danger-go

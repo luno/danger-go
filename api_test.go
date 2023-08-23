@@ -3,8 +3,9 @@ package danger_test
 import (
 	"testing"
 
-	"github.com/moolmanruan/danger-go"
 	"github.com/stretchr/testify/require"
+
+	"github.com/luno/danger-go"
 )
 
 func TestResults(t *testing.T) {
