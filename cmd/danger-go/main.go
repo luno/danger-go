@@ -9,7 +9,7 @@ import (
 	dangerJs "github.com/luno/danger-go/danger-js"
 )
 
-const version = "v0.1.0"
+const version = "v0.2.0"
 
 // main entrypoint of the danger-go command
 func main() {
