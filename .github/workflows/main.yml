@@ -19,7 +19,7 @@ jobs:
         run: npm install -g danger
 
       - name: Install danger-go
-        run: go install github.com/luno/danger-go/cmd/danger-go@v0.2.0 # match version used in build/ci
+        run: go install github.com/luno/danger-go/cmd/danger-go
 
       - name: Check versions
         run: |
