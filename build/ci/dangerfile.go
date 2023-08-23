@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/luno/danger-go"
 )
 
 // Run is invoked by danger-go
