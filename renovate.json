@@ -2,5 +2,17 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "constraints": {
+    "go": "1.21"
+  },
+  "branchConcurrentLimit": 1,
+  "ignoreUnstable": true,
+  "labels":["bot::renovate"],
+  "semanticCommits":  "disabled",
+  "commitMessagePrefix": "renovate",
+  "postUpdateOptions": [
+    "gomodTidy",
+    "gomodUpdateImportPaths"
   ]
 }
