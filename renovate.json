@@ -10,7 +10,7 @@
   "ignoreUnstable": true,
   "labels":["bot::renovate"],
   "semanticCommits":  "disabled",
-  "commitMessagePrefix": "renovate",
+  "commitMessagePrefix": "renovate:",
   "postUpdateOptions": [
     "gomodTidy",
     "gomodUpdateImportPaths"
