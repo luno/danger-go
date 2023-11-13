@@ -12,7 +12,7 @@
   "semanticCommits":  "disabled",
   "commitMessagePrefix": "renovate:",
   "reviewers": [
-    "echarrod",
+    "echarrod"
   ],
   "postUpdateOptions": [
     "gomodTidy",
