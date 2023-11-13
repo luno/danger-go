@@ -11,6 +11,9 @@
   "labels":["bot::renovate"],
   "semanticCommits":  "disabled",
   "commitMessagePrefix": "renovate:",
+  "reviewers": [
+    "echarrod",
+  ],
   "postUpdateOptions": [
     "gomodTidy",
     "gomodUpdateImportPaths"
