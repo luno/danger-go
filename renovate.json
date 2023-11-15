@@ -3,12 +3,8 @@
   "extends": [
     "config:base"
   ],
-  "constraints": {
-    "go": "1.21"
-  },
-  "branchConcurrentLimit": 1,
-  "ignoreUnstable": true,
-  "labels":["bot::renovate"],
+  "branchConcurrentLimit": 3,
+  "labels":["Bot::Renovate"],
   "semanticCommits":  "disabled",
   "commitMessagePrefix": "renovate:",
   "reviewers": [
