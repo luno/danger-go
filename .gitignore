@@ -1,2 +1,6 @@
 # Golang dynamic libs/pluging
 *.so
+
+# Local dev files
+/go.work
+/go.work.sum
