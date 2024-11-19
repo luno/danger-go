@@ -39,3 +39,7 @@ The `danger-go` command line tool supports `local`, `pr`, and `ci` commands. `da
 
 ### GitHub Actions
 See `.github/workflows/main.yml` as a reference.
+
+## Authors
+
+`danger-go` was developed by [Luno](https://github.com/luno/).
