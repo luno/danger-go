@@ -1,0 +1,54 @@
+name: Bug Report
+description: Report a bug that you are experiencing.
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        When reporting bugs, please follow the guidelines in this template. This helps identify the problem precisely and thus enables contributors to fix it faster.
+        - Write a descriptive issue title above.
+        - The golden rule is to **always open *one* issue for *one* bug**. If you notice several bugs and want to report them, make sure to create one new issue for each of them.
+        - Ensure that you're on the latest release or commit on main. It's possible that the bug you're reporting has already been fixed in a more recent version of this package.
+        - Search open and closed issues to ensure it has not already been reported. If you don't find a relevant match or if you're unsure, don't hesitate to **open a new issue**.
+
+  - type: textarea
+    attributes:
+      label: Tested Versions
+      description: |
+        To properly fix a bug, we need to identify if the bug was recently introduced, or if it was always present.
+        - Please specify (if applicable) the release version you found the issue in, or the **Git commit hash** if pointing at the main branch.
+      placeholder: |
+        - Reproducible in: 1.1, 0511aa5.
+        - Not reproducible in: b0ff83c2.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Issue Description
+      description: |
+        Describe your issue briefly. What doesn't work, and how do you expect it to work instead?
+        You can format code blocks or logs with <code>\`\`\`</code> tags, on separate lines before and after the text. (Use <code>\`\`\`go</code> to add Go syntax highlighting.)
+        If adding logs, please add them to a details section, so they can be toggled, e.g. `<details><summary>Logs</summary>log lines...</details>`.
+        Please do not add code examples or error messages as screenshots, but as text, this helps searching for issues and testing the code.
+      validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        List of steps or sample code that reproduces the issue. Having reproducible issues is a prerequisite for contributors to be able to solve them.
+        If you include a minimal reproduction project below, you can detail how to use it here.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Minimal Reproduction Project (MRP)
+      description: |
+        - A small project which reproduces the issue, with no unnecessary files included.
+        - Having an MRP is appreciated by contributors to be able to reproduce the bug in the same way that you are experiencing it. When testing a potential fix for the issue, contributors will use the MRP to validate that the fix is working as intended.
+        - Drag and drop a ZIP archive to upload it (max 10 MB). **Do not select another field until the project is done uploading.**
+    validations:
+      required: false
