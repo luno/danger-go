@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/luno/danger-go/cmd/danger-go/runner"
-	dangerJs "github.com/luno/danger-go/danger-js"
+	"github.com/danger/golang/cmd/danger-go/runner"
+	dangerJs "github.com/danger/golang/danger-js"
 )
 
 const version = "v0.3.0"

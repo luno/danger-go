@@ -5,7 +5,7 @@ This is a Go version of the popular [Danger](https://danger.systems/) tool.
 ## Installation of command line tool
 
 ```shell
-go install github.com/luno/danger-go/cmd/danger-go@latest
+go install github.com/danger/golang/cmd/danger-go@latest
 yarn global add danger
 ```
 
@@ -18,7 +18,7 @@ Requires [Danger JS](https://danger.systems/js) to run properly.
 ```go
 package main
 
-import "github.com/luno/danger-go"
+import "github.com/danger/golang"
 
 func Run(d *danger.T, pr danger.DSL) {
 	d.Message("danger-go is running!", "", 0)
@@ -27,7 +27,7 @@ func Run(d *danger.T, pr danger.DSL) {
 3. Run the following in the directory:
 ```shell
 go mod init dangerfile
-go get github.com/luno/danger-go
+go get github.com/danger/golang
 go mod tidy
 ```
 

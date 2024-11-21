@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/luno/danger-go"
+	danger "github.com/danger/golang"
 )
 
 // Run is invoked by danger-go

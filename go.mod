@@ -1,4 +1,4 @@
-module github.com/luno/danger-go
+module github.com/danger/golang
 
 go 1.21
 
