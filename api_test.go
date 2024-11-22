@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luno/danger-go"
+	danger "github.com/danger/golang"
 )
 
 func TestResults(t *testing.T) {

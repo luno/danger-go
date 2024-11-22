@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-const cliPkg = "github.com/luno/danger-go/cmd/danger-go"
+const cliPkg = "github.com/danger/golang/cmd/danger-go"
 
 func execute(args ...string) (string, error) {
 	cmdArgs := append([]string{"run", cliPkg}, args...)

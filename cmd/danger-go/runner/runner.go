@@ -15,8 +15,8 @@ import (
 	"plugin"
 	"strings"
 
-	"github.com/luno/danger-go"
-	dangerJs "github.com/luno/danger-go/danger-js"
+	danger "github.com/danger/golang"
+	dangerJs "github.com/danger/golang/danger-js"
 )
 
 const dangerURLPrefix = "danger://dsl/"

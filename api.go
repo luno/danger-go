@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	dangerJs "github.com/luno/danger-go/danger-js"
+	dangerJs "github.com/danger/golang/danger-js"
 )
 
 // DSL wraps the DSL received from danger JS. This allows dangerfiles to only
