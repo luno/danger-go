@@ -1,0 +1,38 @@
+name: Feature Request
+description: Submit a feature request that will improve your experience.
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        When submitting feature requests, please follow the guidelines in this template - this helps contributors assess the request and determine if it's something that can and should be actioned.
+        - Write a descriptive issue title above.
+        - The golden rule is to **always open *one* issue for *one* feature request**. If you notice that your feature request actually consists of many independent features, make sure to create one new issue for each of them.
+        - Ensure that you've taken a look at the latest release or commit on main. It's possible that the feature you're requesting has already been added in a more recent version of this package.
+        - Search open and closed issues to ensure that the requested feature has not already been requested. If you don't find a relevant match or if you're unsure, don't hesitate to **open a new issue**.
+
+  - type: textarea
+    attributes:
+      label: Feature Description
+      description: |
+        Describe the feature you are requesting with as much detail as you can provide.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Rationale
+      description: |
+        Explain why this feature is something that you think will be a great addition to this package.
+        - Please consider whether existing features can accomplish the goal you're trying to achieve. If not, explain why.
+      validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Potential Solutions
+      description: |
+        List of ideas you may already have for the implementation of the feature you are requesting.
+        - Please consider if you can make the contribution yourself. You don't even have to do everything yourself, other contributors will b more than happy to help out.
+    validations:
+      required: false
